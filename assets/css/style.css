@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to right, blue, lightblue);
+}
+
+.box1 {
+    z-index: -1;
+    background-color:white;
+}
+
+.box2 {
+    z-index: 1;
+    background-color: white;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.inputBox {
+    background-color: rgb(238, 238, 238);
+    padding: 1rem;
+    border: 0px;
+    width: 16rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.boton {
+    background-color:rgb(33, 161, 201) ;
+    color: white;
+    text-decoration: none;
+    width: 16rem;
+    height: 3rem;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: steelblue;
+    font-weight: bold;
+}
+
+.fecha {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
